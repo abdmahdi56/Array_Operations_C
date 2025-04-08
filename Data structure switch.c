@@ -7,15 +7,17 @@ int main() {
     int n = 0;
     int c;
 
-    while (1) {
-        printf("\nChoose your operation:\n");
+     printf("\nChoose your operation:\n");
         printf("1. Insert\n");
         printf("2. Update\n");
         printf("3. Delete\n");
         printf("4. Display\n");
         printf("5. Search\n");
         printf("6. Exit\n");
-        printf("Enter your choice: ");
+
+    while (1) {
+       
+        printf("\nEnter your choice: ");
         scanf("%d", &c);
 
         switch (c) {
