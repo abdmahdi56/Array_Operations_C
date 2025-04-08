@@ -1,3 +1,14 @@
+/*
+Project Name: Array Manipulation
+Created By: Abdullah Al Mahdi
+Student ID: 0182420012101256
+GitHub ID:https://github.com/abdmahdi56
+Course Instructor: Md. Jehadul Islam Mony
+Batch: CSE 64F
+Department: Computer Science and Engineering
+Institution: Leading University, Sylhet
+*/
+
 #include <stdio.h>
 #define Max 100
 
@@ -7,7 +18,7 @@ int main() {
     int n = 0;
     int c;
 
-     printf("\nChoose your operation:\n");
+    printf("\nChoose your operation:\n");
         printf("1. Insert\n");
         printf("2. Update\n");
         printf("3. Delete\n");
@@ -16,7 +27,7 @@ int main() {
         printf("6. Exit\n");
 
     while (1) {
-       
+
         printf("\nEnter your choice: ");
         scanf("%d", &c);
 
