@@ -9,7 +9,8 @@ This project allows users to:
 - ✅ Update an existing value  
 - ✅ Delete a value (with multiple occurrences handling)  
 - ✅ Display all stored values  
-- ✅ Search for a specific value  
+- ✅ Search for a specific value
+- ✅ Sort value  
 
 ---
 
@@ -31,6 +32,7 @@ Choose your operation:
 2. Update
 3. Delete
 4. Display
-5. Search
-6. Exit
+5. Sort
+6. Search
+7. Exit
 Enter your choice:
