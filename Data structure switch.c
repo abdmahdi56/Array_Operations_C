@@ -1,5 +1,5 @@
 /*
-Project Name: Array Manipulation
+Project Name: Array Operation
 Created By: Abdullah Al Mahdi
 Student ID: 0182420012101256
 GitHub ID:https://github.com/abdmahdi56
@@ -23,8 +23,9 @@ int main() {
         printf("2. Update\n");
         printf("3. Delete\n");
         printf("4. Display\n");
-        printf("5. Search\n");
-        printf("6. Exit\n");
+        printf("5. Sort\n");
+        printf("6. Search\n");
+        printf("7. Exit\n");
 
     while (1) {
 
@@ -147,7 +148,25 @@ int main() {
                 }
                 break;
 
-            case 5: { // Search
+            case 5:{
+
+            for(int i = 0; i < n - 1; i++)
+            {
+                for(int j = 0; j < n - i - 1; j++)
+                {
+                    if(arr[j] > arr[j+1])
+                    {
+                        int temp = arr[j];
+                        arr[j] = arr[j+1];
+                        arr[j+1] = temp;
+                    }
+                }
+            }
+            printf("Array sorted successfully.\n");
+            break;
+        }
+
+            case 6: { // Search
                 int s, found = 0;
                 printf("Enter the value to search: ");
                 scanf("%d", &s);
@@ -167,7 +186,7 @@ int main() {
                 break;
             }
 
-            case 6: // Exit
+            case 7: // Exit
                 printf("Thanks for using the program.\n");
                 return 0;
 
